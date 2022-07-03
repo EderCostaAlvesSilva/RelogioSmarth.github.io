@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <title>⏲RELOGIO SMART⏰</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="pegarHora()">
+    <header>
+        <section class="horas">
+            <span id="Rhora"></span>: 
+            <span id="Rminutos"></span>:
+            <span id="Rsegundos"></span>
+        </section>
+    </header>
+
+    <main>
+        <section class="horas" id="dataHora">
+            <span id="SmartHora"></span>: 
+            <span id="SmartMinutos"></span>:
+            <span id="SmartSegundos"></span>
+        </section>
+        
+        <section id="dataSemana">
+            <span id="semana"></span> 
+            <span id="dataAtual"></span>
+        </section>
+
+        <section>
+            <span id="cidade"></span>
+        </section>
+
+        <section id="clima">
+            🌡<span id="temperatura"></span>°C
+            💧<span id="chover"></span>%
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

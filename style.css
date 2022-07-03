@@ -1,0 +1,87 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, monospace;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    flex-direction: column;
+}
+
+header{
+    width: 25%;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    height: 40px;
+    line-height:55px;
+    text-align: center;
+}
+
+main{
+    width: 25%;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    height: auto;
+    line-height: 60px;
+    text-align: center;
+}
+
+section{
+    margin-top: -10px;
+}
+
+.horas{
+    color: deeppink;
+}
+
+#Rhora,#SmartHora{
+    margin-right: 5px;
+    padding: 1px 5px; 
+
+}
+
+#Rminutos, #SmartMinutos{
+    margin-right: 5px;
+    padding: 1px 5px; 
+    
+}
+
+#Rsegundos, #SmartSegundos{
+    margin-right: 5px;
+    padding: 1px 5px;
+}
+
+
+#semana{
+    margin-right: 5px;
+    padding: 1px 5px;
+
+}
+#dataAtual{
+    margin-right: 5px;
+    padding: 1px 5px
+}
+
+#cidade{
+    padding: 1px 5px;
+
+}
+
+#temperatura{
+    margin-right: 5px;
+    padding: 1px 5px;
+}
+
+#chover{
+    margin-right: 5px;
+    padding: 2px 5px;
+}
